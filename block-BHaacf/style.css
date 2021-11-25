@@ -1,0 +1,537 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------header------------------------- */
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 00;
+}
+.padding
+{
+    padding: 60px 00;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2
+{
+    align-items: center;
+}
+.flex3
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex6
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex5
+{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.header
+{
+    background-color: rgb(78, 88, 78);
+}
+.h1
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.h1 strong
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(231, 21, 21);
+}
+.header2
+{
+    width: 60%;
+    }
+.header-list a
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 4px;
+}
+.header-list .redd
+{
+    color: rgb(231, 21, 21);
+}
+.header-nav
+{
+    width: 75%;
+    margin-left: 24px;
+}
+.signup
+{
+    background-color: rgb(231, 21, 21);
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 6px;
+}
+.signup a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+/* --------------------section-1-------------------------- */
+.maindiv-section1
+{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    }
+.section-1
+{
+    background-color: black;
+    height: 600px;
+    position: relative;
+    }
+.h2 
+{
+    font-size: 14px;
+    color: white;
+}
+.h3 
+{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+.h3 strong
+{
+    color: rgb(231, 21, 21);
+}
+.member
+{
+    background-color:rgb(231, 21, 21);
+    width: 140px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.member a
+{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.div-video video
+{
+    height: 600px;
+    width: 100%;
+    object-fit: fill;
+}
+.div-video
+{
+    width: 100%;
+    height: 100%;
+}
+.overlay
+{
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+/* ----------------------------section-2-------------------------- */
+.div-section-2-part1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    height: 130px;
+    text-align: center;
+}
+.h5
+{
+    font-size: 23px;
+    color: black;
+    font-weight: 800;
+}
+.h5 strong
+{
+    font-size: 23px;
+    color: rgb(231, 21, 21);
+    font-weight: 800;
+}
+.fa-water
+{
+    color: rgb(231, 21, 21);
+    font-weight: 400;
+    font-size: 25px;
+}
+.p4
+{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.box
+{
+    width: 48%;
+    height: 150px;
+align-items: center;}
+.box-part1
+{
+width: 27%;
+}
+.box-part2
+{
+width: 68%;
+justify-content: space-between;
+height: 110px;
+}
+.box-part1
+{
+    background-color: rgb(231, 21, 21);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.box-part1 img 
+{
+    width:55px;
+    height:55px;
+}
+.h6
+{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.p6
+{
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}
+.box-part2 a
+{
+    text-decoration: none;
+    color: rgb(231, 21, 21);
+    font-size: 14px;
+    font-weight: 600;
+}
+.div-section-2-part2
+{
+    flex-wrap: wrap;
+}
+.section-2
+{
+    padding: 60px 00;
+}
+/* ----------------------------section-3---------------------------- */
+.section-3 
+{
+    background: url("assets/cta-bg.jpg");
+    padding: 60px 00;
+}
+.maindiv-section-3
+{
+        width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    height: 140px;
+    justify-content: space-between;
+}
+.h-3
+{
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+}
+.h-3 strong
+{
+    font-size: 23px;
+    color: rgb(231, 21, 21);
+    font-weight: 600;
+}
+.p-3
+{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+}
+/* ---------------------------------section-4-------------------------------- */
+.div-section-4-part2-a
+{
+    width: 30%;
+}
+.div-section-4-part2-b
+{
+    width: 60%;
+}
+.section-4-box a
+{
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    font-size: 14px;
+    font-weight: 600;
+}
+.section-4-box
+{
+    padding: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    margin-bottom: 15px;
+}
+.section-4-box-last
+{
+    background-color: rgb(231, 21, 21);
+    border-radius: 3px;
+    padding: 16px 00;
+}
+.section-4-box-last a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.div-section-4-part2-b img
+{
+    width: 100%;
+    border-radius: 3px;
+}
+.h-4-a
+{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.p-4
+{
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    margin-top: 10px;
+}
+.view-schedule
+{
+    background-color: rgb(231, 21, 21);
+    padding: 6px;
+    border-radius: 3px;
+    width: 130px;
+    margin-top: 10px;
+}
+.view-schedule a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+/* -------------------------section-5--------------------------- */
+.section-5
+{
+    background:url("assets/schedule-bg.jpg");
+}
+.h5-new, .p4-new
+{
+color: white;
+}
+caption
+{
+    color: white;
+    margin-bottom: 25px;
+}
+caption a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 00 6px;
+}
+tr, td
+{
+    border: 2px solid rgb(241, 237, 237);
+    padding: 25px;
+    color: white;
+}
+.monday
+{
+    color: rgb(231, 21, 21);
+}
+.section-4-box .monday-1
+{
+    color: rgb(231, 21, 21);
+}
+/* ----------------------------section-6----------------------------- */
+.section-6-box
+{
+    width: 27%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 14px;
+}
+.maindiv-section-6-part-2
+{
+    padding: 30px 00;
+}
+.h-6
+{
+    font-size: 12px;
+    color: rgb(231, 21, 21);
+    font-weight: 400;
+    margin-top: 6px;
+}
+.h-6-a
+{
+    font-size: 16px;
+    color: rgb(3, 2, 2);
+    font-weight: 600;
+}
+.p-6
+{
+    font-size: 12px;
+    color: rgb(2, 1, 1);
+    font-weight: 400;
+    margin: 10px 00;
+}
+.nav-6 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+/* -------------------section-7--------------------- */
+.section-7-a
+{
+width: 50%;
+}
+.section-7-b
+{
+    width: 50%;
+    background: url("assets/contact-bg.jpg");
+    display: flex;
+    align-items: center;
+}
+.form-length
+{
+    width: 100%;
+}
+.form-length-1
+{
+    width: 43%;
+}
+.section-7-b-1
+{
+    width: 400px;
+    height: 270px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 auto;
+}
+input, textarea
+{
+    padding: 7px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgb(172, 170, 170);
+}
+button
+{
+    width: 100%;
+    background-color: rgb(231, 21, 21);
+    padding: 8px;
+    border: 0;
+    color: white;
+}
+/* ----------------------------footer------------------------ */
+.footer
+{
+    padding: 30px 00;
+    text-align: center;
+}
+.footer h
+{
+    font-size: 12px;
+}
+.footer h strong
+{
+    color: rgb(231, 21, 21);
+}
